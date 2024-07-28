@@ -12,7 +12,7 @@ import {
     TouchableWithoutFeedback,
     View,
 } from 'react-native';
-import * as AppColors from '~/utils/colors.js';
+// import * as AppColors from '~/utils/colors.js';
 
 export default class HomeScreen extends Component {
     render() {
@@ -26,6 +26,6 @@ export default class HomeScreen extends Component {
 
 const styles = StyleSheet.create({
     root: {
-        backgroundColor: AppColors.primary
+        // backgroundColor: AppColors.primary
     },
 });
